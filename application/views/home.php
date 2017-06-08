@@ -96,3 +96,35 @@
         </div>
 
 </div>
+
+<div class="row">
+  <div class="container">
+
+  <div class="col-md-8">
+    <div class="table table-responsive">
+      <table class="table table bordered">
+        <thead>
+        <tr>
+            <th data-sortable="true">Kabupaten</th>
+            <th data-sortable="true">SD/MI</th>
+            <th data-sortable="true">SMP/MTS</th>
+            <th data-sortable="true">SMA/MA</th>
+            <th data-sortable="true">SMK</th>
+            <th data-sortable="true">Jumlah</th>
+        </tr>
+        </thead>
+        <!-- <?php foreach ($variable as $key => $value) {
+          # code...
+        } ?> -->
+      </table>
+
+    </div>
+  </div>
+
+  <div class="col-md-4">
+
+  </div>
+
+
+    </div>
+</div>
