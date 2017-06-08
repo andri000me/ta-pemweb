@@ -7,7 +7,8 @@
     <title>Data Sekolah</title>
 
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="<?=base_url()?>assets/css/tether.min.css">
+    <link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/style.css">
 
   </head>
