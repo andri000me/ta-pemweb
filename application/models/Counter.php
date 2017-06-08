@@ -18,4 +18,16 @@
       $query = $this->db->query('SELECT COUNT(profil.id) AS number FROM profil');
       return $query->result();
     }
+    public function jmlguru(){
+      $query = $this->db->query('SELECT COUNT(npsn) AS nomer FROM data_guru');
+      return $query->result();
+    }
+    public function jmlsiswa(){
+      $query = $this->db->query('SELECT COUNT(npsn) AS nomer FROM siswa');
+      return $query->result();
+    }
+    public function jmlkab(){
+      $query = $this->db->query('SELECT COUNT(id) AS nomer FROM kabupaten');
+      return $query->result();
+    }
   }

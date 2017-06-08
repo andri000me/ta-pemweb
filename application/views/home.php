@@ -51,21 +51,10 @@
                                   echo $j_guru->nomer . "";
                                 } ?></span>
                                                             </h3>
-                            <small>Data Guru</small>
+                            <small>DATA GURU</small>
                         </div>
                         <div class="icon">
                             <i class="fa fa-send"></i>
-                        </div>
-                    </div>
-                    <div class="progress-info">
-                        <div class="progress skill-bar">
-                            <span class="progress-bar progress-bar-success red-haze" role="progressbar" aria-valuenow="77.21" aria-valuemin="0" aria-valuemax="100" style="width: 77.21%;">
-                                <span class="sr-only">77.21% dari jumlah sekolah</span>
-                            </span>
-                        </div>
-                        <div class="status">
-                            <div class="status-title"><a href="/pengiriman/progres" title="Progres Pengiriman" style="color: #FFF;" target="_blank">Progres Pengiriman</a></div>
-                            <div class="status-number"> 77.21% </div>
                         </div>
                     </div>
                 </div>
@@ -75,23 +64,14 @@
                     <div class="display">
                         <div class="number">
                             <h3 class="font-blue-sharp">
-                                <span class="counterup">158.752</span>
+                                <span class="counterup"><?php foreach ($jumlahsiswa as $j_siswa) {
+                                  echo $j_siswa->nomer . "";
+                                } ?></span>
                                                             </h3>
-                            <small>Sudah Diproses</small>
+                            <small>DATA SISWA</small>
                         </div>
                         <div class="icon">
                             <i class="fa fa-line-chart"></i>
-                        </div>
-                    </div>
-                    <div class="progress-info">
-                        <div class="progress skill-bar">
-                            <span class="progress-bar progress-bar-success blue-sharp" role="progressbar" aria-valuenow="73.19" aria-valuemin="0" aria-valuemax="100" style="width: 73.19%;">
-                                <span class="sr-only">73.19% dari jumlah sekolah</span>
-                            </span>
-                        </div>
-                        <div class="status">
-                            <div class="status-title"> Persentase Pemrosesan</div>
-                            <div class="status-number"> 73.19% </div>
                         </div>
                     </div>
                 </div>
@@ -101,23 +81,14 @@
                     <div class="display">
                         <div class="number">
                             <h3 class="font-purple-soft">
-                                <span class="counterup">134.112</span>
+                                <span class="counterup"><?php foreach ($jumlahkab as $j_kab) {
+                                  echo $j_kab->nomer . "";
+                                } ?></span>
                                                             </h3>
-                            <small>Sudah Lengkap</small>
+                            <small>JUMLAH KABUPATEN</small>
                         </div>
                         <div class="icon">
                             <i class="fa fa-check"></i>
-                        </div>
-                    </div>
-                    <div class="progress-info">
-                        <div class="progress skill-bar">
-                            <span class="progress-bar progress-bar-success purple-soft" role="progressbar" aria-valuenow="61.83" aria-valuemin="0" aria-valuemax="100" style="width: 61.83%;">
-                                <span class="sr-only">61.83% dari jumlah sekolah</span>
-                            </span>
-                        </div>
-                        <div class="status">
-                            <div class="status-title"><a href="/pengiriman/kelengkapan" title="Progres Kelengkapan" target="_blank" style="color: #FFF;">Progres Kelengkapan</a> </div>
-                            <div class="status-number"> 61.83% </div>
                         </div>
                     </div>
                 </div>
@@ -125,6 +96,3 @@
         </div>
 
 </div>
-    <?php foreach ($guru as $dataguru) {
-      echo "NIP: " . $dataguru->nip . " Nama: " . $dataguru->nama . "<br />";
-    } ?>
