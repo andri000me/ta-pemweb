@@ -7,6 +7,7 @@
     <title>Data Sekolah</title>
 
     <!-- Bootstrap -->
+
     <link rel="stylesheet" href="<?=base_url()?>assets/css/tether.min.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/style.css">
