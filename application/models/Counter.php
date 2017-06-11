@@ -15,7 +15,7 @@
 
     public function read()
     {
-      $query = $this->db->query('SELECT COUNT(profil.id) AS number FROM profil');
+      $query = $this->db->query('SELECT COUNT(profil.npsn) AS number FROM profil');
       return $query->result();
     }
     public function jmlguru(){

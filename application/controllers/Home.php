@@ -6,13 +6,12 @@ class Home extends CI_Controller {
   public function __construct()
   {
     parent::__construct();
-    $this->load->model('guru');
     $this->load->model('counter');
   }
 
   public function index() {
     $data = array();
-    $data['guru'] = $this->guru->read();
+	$data['kab'] = $this->my_lib->get_data('kabupaten');
     $data['counter'] = $this->counter->read();
     $data['jumlahguru'] = $this->counter->jmlguru();
     $data['jumlahsiswa'] = $this->counter->jmlsiswa();

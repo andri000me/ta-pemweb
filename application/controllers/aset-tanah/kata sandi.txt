@@ -1,0 +1,7 @@
+Akses Admin
+username : admin1
+password : admin1234
+
+Akses User
+username : mahardika
+password : mahardika1234

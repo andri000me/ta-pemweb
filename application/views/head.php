@@ -10,7 +10,7 @@
 
     <link rel="stylesheet" href="<?=base_url()?>assets/css/tether.min.css">
     <link rel="stylesheet" href="<?=base_url()?>assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?=base_url()?>assets/style.css">
-
+    <link rel="stylesheet" href="<?=base_url()?>assets/css/style.css">
+    
   </head>
   <body>
